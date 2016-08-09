@@ -34,23 +34,17 @@ namespace adamOS
             //Checks if the help command has been run
             if (input == "help")
             {
-                help();
+                //Loads help.cs and talks to the helpList method
+                help.helpList();
             }
             else
-            //Loads the game
+            //Loads the game - Currently not working
+            //Game will load, but did get a crash once u progress
                 if (input == "game")
             {
                 adventureGameMain.gameMain();
             }
             
-        }
-
-        //This is the "help" command
-        void help()
-        {
-            Console.Write("Here are a list of avalible commands:");
-            Console.Write("help - shows a list of avalible commands");
-            Console.ReadLine();
         }
     }
 }
