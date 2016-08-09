@@ -15,6 +15,9 @@ namespace adamOS
     /// --Help
     /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
     /// --Text adventure game
+    /// -Lern how to do a basic file system
+    /// --Make my own version of Vim
+    /// --Read/write to files/folders
     /// </summary>
     public class Kernel : Sys.Kernel
     {
