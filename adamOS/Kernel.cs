@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
+using adamOS.adventureGame;
+
 namespace adamOS
 {
     /// <summary>
@@ -31,13 +33,19 @@ namespace adamOS
             {
                 help();
             }
+            else
+                if (input == "game")
+            {
+                adventureGameMain.gameMain();
+            }
             
         }
 
         //This is the "help" command
         void help()
         {
-            Console.Write("lmao");
+            Console.Write("Here are a list of avalible commands:");
+            Console.Write("help - shows a list of avalible commands");
             Console.ReadLine();
         }
     }
