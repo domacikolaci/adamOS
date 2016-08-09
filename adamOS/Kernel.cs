@@ -13,7 +13,7 @@ namespace adamOS
     /// IMPORTANT
     /// -Begin basic commands
     /// --Help
-    /// -Begining code of basic game
+    /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
     /// --Text adventure game
     /// </summary>
     public class Kernel : Sys.Kernel
@@ -34,6 +34,7 @@ namespace adamOS
                 help();
             }
             else
+            //Loads the game
                 if (input == "game")
             {
                 adventureGameMain.gameMain();
