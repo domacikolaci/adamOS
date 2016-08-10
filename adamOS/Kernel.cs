@@ -15,7 +15,7 @@ namespace adamOS
     /// --Help
     /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
     /// --Text adventure game
-    /// -Lern how to do a basic file system
+    /// -Learn how to do a basic file system
     /// --Make my own version of Vim
     /// --Read/write to files/folders
     /// </summary>
@@ -23,6 +23,10 @@ namespace adamOS
     {
         protected override void BeforeRun()
         {
+            //Need to install devkit for this to work
+            //var fs = new Sys.FileSystem.CosmosVFS();
+            //Sys.FileSystem.VFS.VFSManager.RegisterVFS(fs);
+
             Console.WriteLine("adamOS booted successfully. Please enter a command bellow.");
             Console.WriteLine("If your not sure what to type, type help for a list of commands!");
         }
@@ -44,7 +48,6 @@ namespace adamOS
             {
                 adventureGameMain.gameMain();
             }
-            
         }
     }
 }
