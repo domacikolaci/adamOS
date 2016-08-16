@@ -1,0 +1,15 @@
+E:\Programing\git\adamOS\CoreOS\bin\Debug\CoreOS.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\CoreOS.pdb
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Debug.Kernel.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.System.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Common.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.HAL.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Core.dll
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.System.pdb
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Debug.Kernel.pdb
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Common.pdb
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.HAL.pdb
+E:\Programing\git\adamOS\CoreOS\bin\Debug\Cosmos.Core.pdb
+E:\Programing\git\adamOS\CoreOS\obj\Debug\CoreOS.csprojResolveAssemblyReference.cache
+E:\Programing\git\adamOS\CoreOS\obj\Debug\CoreOS.dll
+E:\Programing\git\adamOS\CoreOS\obj\Debug\CoreOS.pdb

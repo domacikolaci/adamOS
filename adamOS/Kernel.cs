@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using adamOS.adventureGame;
+using CoreOS;
 
 namespace adamOS
 {
@@ -11,6 +12,8 @@ namespace adamOS
     /// 
     /// TODO:
     /// IMPORTANT
+    /// -Use the kernel as a kernel
+    /// --Migrate everything to seperate projects
     /// -Begin basic commands
     /// --Help
     /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
@@ -47,6 +50,11 @@ namespace adamOS
                 if (input == "game")
             {
                 adventureGameMain.gameMain();
+            }
+            else
+                if (input == "main")
+            {
+                CoreOS.main.memeMachine();
             }
         }
     }
