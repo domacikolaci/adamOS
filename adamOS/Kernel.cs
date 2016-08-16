@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using adamOS.adventureGame;
-using CoreOS;
 
 namespace adamOS
 {
@@ -14,6 +13,7 @@ namespace adamOS
     /// IMPORTANT
     /// -Use the kernel as a kernel
     /// --Migrate everything to seperate projects
+    /// --Currently not building....
     /// -Begin basic commands
     /// --Help
     /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
@@ -30,6 +30,7 @@ namespace adamOS
             //var fs = new Sys.FileSystem.CosmosVFS();
             //Sys.FileSystem.VFS.VFSManager.RegisterVFS(fs);
 
+            Console.WriteLine("Kernel succesully booted");
             Console.WriteLine("adamOS booted successfully. Please enter a command bellow.");
             Console.WriteLine("If your not sure what to type, type help for a list of commands!");
         }
@@ -54,7 +55,7 @@ namespace adamOS
             else
                 if (input == "main")
             {
-                CoreOS.main.memeMachine();
+                //Ment to load the main OS class... when this actually works :/
             }
         }
     }

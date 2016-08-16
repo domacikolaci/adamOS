@@ -45,12 +45,6 @@
     <Compile Include="Kernel.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CoreOS\CoreOS.csproj">
-      <Project>{c4b6f34b-bd7f-47ac-81f7-6c82562bd1c3}</Project>
-      <Name>CoreOS</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,1 +1,0 @@
-E:\Programing\git\adamOS\CoreOS\obj\Debug\CoreOSBoot.CosmosResolveAssemblyReference.cache

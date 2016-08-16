@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C4B6F34B-BD7F-47AC-81F7-6C82562BD1C3}</ProjectGuid>
+    <ProjectGuid>{D1FD55B1-EBE2-4BFD-9AD6-BF8558426CB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CoreOS</RootNamespace>
-    <AssemblyName>CoreOS</AssemblyName>
+    <RootNamespace>CoreOSFiles</RootNamespace>
+    <AssemblyName>CoreOSFiles</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -40,7 +40,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="main.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\adamOS\adamOS.csproj">
+      <Project>{083bd085-ac18-4e52-9c6f-51ce34f22e58}</Project>
+      <Name>adamOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\adamOS\adamOSBoot.Cosmos">
+      <Project>{ca00326c-df91-4eeb-aeb3-f5f0475a6d38}</Project>
+      <Name>adamOSBoot</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

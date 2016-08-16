@@ -3,9 +3,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{c509e140-d5a8-44e4-b399-ee55fac55da5}</ProjectGuid>
+    <ProjectGuid>{b47bed50-6865-4438-a1dc-69bfd47c7dcf}</ProjectGuid>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <Name>CoreOSBoot</Name>
+    <Name>CoreOSFilesBoot</Name>
     <BinFormat>elf</BinFormat>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -21,16 +21,16 @@
     <StartCosmosGDB>false</StartCosmosGDB>
     <VMWareEdition>Player</VMWareEdition>
     <OutputPath>bin\Debug\</OutputPath>
-    <Name>CoreOSBoot</Name>
+    <Name>CoreOSFilesBoot</Name>
     <Description>Use VMware Player or Workstation to deploy and debug.</Description>
     <Deployment>ISO</Deployment>
     <Launch>VMware</Launch>
     <VisualStudioDebugPort>Pipe: Cosmos\Serial</VisualStudioDebugPort>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include=".\CoreOS.csproj">
-      <Name>CoreOS</Name>
-      <Project>{c4b6f34b-bd7f-47ac-81f7-6c82562bd1c3}</Project>
+    <ProjectReference Include=".\CoreOSFiles.csproj">
+      <Name>CoreOSFiles</Name>
+      <Project>{d1fd55b1-ebe2-4bfd-9ad6-bf8558426cb0}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
