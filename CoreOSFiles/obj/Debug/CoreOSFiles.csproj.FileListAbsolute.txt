@@ -1,1 +1,2 @@
 E:\Programing\git\adamOS\CoreOSFiles\obj\Debug\CoreOSFiles.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\adamOS\CoreOSFiles\obj\Debug\CoreOSFiles.csprojResolveAssemblyReference.cache

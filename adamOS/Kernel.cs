@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using adamOS.adventureGame;
+using CoreOSFiles;
 
 namespace adamOS
 {
@@ -55,7 +56,7 @@ namespace adamOS
             else
                 if (input == "main")
             {
-                //Ment to load the main OS class... when this actually works :/
+                CoreOSFiles.mainOSClass.mainClass();
             }
         }
     }

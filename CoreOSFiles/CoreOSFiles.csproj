@@ -40,16 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\adamOS\adamOS.csproj">
-      <Project>{083bd085-ac18-4e52-9c6f-51ce34f22e58}</Project>
-      <Name>adamOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\adamOS\adamOSBoot.Cosmos">
-      <Project>{ca00326c-df91-4eeb-aeb3-f5f0475a6d38}</Project>
-      <Name>adamOSBoot</Name>
-    </ProjectReference>
+    <Compile Include="mainOSClass.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
