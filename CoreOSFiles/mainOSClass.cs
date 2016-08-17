@@ -10,7 +10,8 @@ namespace CoreOSFiles
     {
         public static void mainClass()
         {
-
+            Console.Write("Ayyy lmao");
+            Console.ReadLine();
         }
     }
 }
