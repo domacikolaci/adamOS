@@ -13,16 +13,22 @@ namespace adamOS.adventureGame
 
         public static void gameMain()
         {
-            Console.Write("Welcome adventurer! Please, state thy name!");
+            Console.Write("Welcome adventurer! Please, state thy name!\n");
             playerName = Console.ReadLine();
-            testWew();
-        }
-
-        //Shits breaking here.... Will investigate later
-        public static void testWew()
-        {
-            Console.Write(playerName);
-            Console.ReadLine();
+            Console.Write(playerName + "! You are about to embark on an amazing journey!/n");
+            Console.Write("It will involve all sorts of cool and fun quests!/n");
+            Console.Write("Are you ready?/n");
+            var playerReady = Console.ReadLine();
+            if (playerReady == "yes")
+            {
+                level1.main();
+            }
+            else
+            {
+                //Will go back to "main.cs" which will be added later.....
+                Console.WriteLine("lol k");
+                Console.ReadLine();
+            }
         }
     }
 }
