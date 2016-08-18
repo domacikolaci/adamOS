@@ -13,8 +13,9 @@ namespace adamOS
     /// IMPORTANT
     /// -Begin basic commands
     /// --Help
-    /// -Begining code of basic game CURRENTLY BROKEN, NOT BOTHERING FOR NOW
-    /// --Text adventure game
+    /// -Begining code of basic game
+    /// --Got to get basic fight going
+    /// --Setup basic Player stats
     /// -Learn how to do a basic file system
     /// --Make my own version of Vim
     /// --Read/write to files/folders

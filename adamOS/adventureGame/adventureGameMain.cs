@@ -8,11 +8,13 @@ namespace adamOS.adventureGame
 {
     
     public class adventureGameMain
-    {
-        public static string playerName = "";
+    {   
+        //public static string playerName = "";
 
         public static void gameMain()
         {
+            string playerName = player.playerName();
+
             Console.Write("Welcome adventurer! Please, state thy name!\n");
             playerName = Console.ReadLine();
             Console.Write(playerName + "! You are about to embark on an amazing journey!/n");

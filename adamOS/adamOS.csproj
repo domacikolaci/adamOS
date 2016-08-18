@@ -40,7 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adventureGame\adventureGameMain.cs" />
+    <Compile Include="adventureGame\enemies.cs" />
     <Compile Include="adventureGame\level1.cs" />
+    <Compile Include="adventureGame\player.cs" />
     <Compile Include="help.cs" />
     <Compile Include="Kernel.cs" />
     <Compile Include="AssemblyInfo.cs" />
