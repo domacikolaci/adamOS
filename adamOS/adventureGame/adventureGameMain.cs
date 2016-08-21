@@ -13,11 +13,11 @@ namespace adamOS.adventureGame
 
         public static void gameMain()
         {
-            string playerName = player.playerName();
+            //string playerName = player.playerName();
 
             Console.Write("Welcome adventurer! Please, state thy name!\n");
-            playerName = Console.ReadLine();
-            Console.Write(playerName + "! You are about to embark on an amazing journey!/n");
+           // playerName = Console.ReadLine();
+           // Console.Write(playerName + "! You are about to embark on an amazing journey!/n");
             Console.Write("It will involve all sorts of cool and fun quests!/n");
             Console.Write("Are you ready?/n");
             var playerReady = Console.ReadLine();
