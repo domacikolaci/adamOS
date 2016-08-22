@@ -24,17 +24,22 @@ namespace adamOS
     {
         protected override void BeforeRun()
         {
-            //Need to install devkit for this to work
-            //var fs = new Sys.FileSystem.CosmosVFS();
-            //Sys.FileSystem.VFS.VFSManager.RegisterVFS(fs);
+            //Starts the filesystem
+            var fs = new Sys.FileSystem.CosmosVFS();
+            Sys.FileSystem.VFS.VFSManager.RegisterVFS(fs);
 
+            //Boot message
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("adamOS booted successfully. Please enter a command bellow.");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("WARNING - THIS OS IS VERY MUCH ALPHA, ENJOY");
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("If your not sure what to type, type help for a list of commands!");
         }
 
         protected override void Run()
         {
-            Console.Write("Input: ");
+            Console.Write(">: ");
             var input = Console.ReadLine();
             //Checks if the help command has been run
             if (input == "help")
@@ -44,7 +49,6 @@ namespace adamOS
             }
             else
             //Loads the game - Currently not working
-            //Game will load, but did get a crash once u progress
                 if (input == "game")
             {
                 adventureGameMain.gameMain();
