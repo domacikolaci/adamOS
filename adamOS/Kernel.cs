@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using adamOS.adventureGame;
+using System.IO;
 
 namespace adamOS
 {
@@ -53,6 +54,29 @@ namespace adamOS
             {
                 adventureGameMain.gameMain();
             }
+            else
+                if(input == "newText") //CURRENTLY BROKEN
+            {
+                Console.WriteLine("Please enter some text");
+                var txt = Console.ReadLine();
+                //Console.WriteLine("Please give the file a name");
+                //var fileName = Console.ReadLine();
+                //File.WriteAllText(@"0:\" + fileName + ".txt", txt);
+                File.WriteAllText(@"0:\meme.txt", txt);
+            }
+            else
+                if(input == "readText") //ALSO DOSNT WORK
+            {
+                //var output = ReadText.ReadText();
+
+            }        
         }
+        public string ReadText(string FileAddr) //Returns the file in a single string.
+        {
+            string f_contents = "";
+            f_contents = File.ReadAllText(FileAddr);
+            return f_contents;
+        }
+
     }
 }
