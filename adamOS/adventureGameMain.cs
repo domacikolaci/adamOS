@@ -9,15 +9,18 @@ namespace adamOS.adventureGame
     
     public class adventureGameMain
     {   
-        //public static string playerName = "";
+        public static string playerName = "";
+        public static int playerHP = 20;
+        public static int playerAttack = 5;
 
         public static void gameMain()
         {
-            //string playerName = player.playerName();
+            //var playerName = new player.playerN();
+            //player playerName;
 
             Console.Write("Welcome adventurer! Please, state thy name!\n");
-           // playerName = Console.ReadLine();
-           // Console.Write(playerName + "! You are about to embark on an amazing journey!/n");
+            playerName = Console.ReadLine();
+            Console.WriteLine(playerName + "! You are about to embark on an amazing journey!");
             Console.Write("It will involve all sorts of cool and fun quests!/n");
             Console.Write("Are you ready?/n");
             var playerReady = Console.ReadLine();
@@ -32,5 +35,6 @@ namespace adamOS.adventureGame
                 Console.ReadLine();
             }
         }
+        
     }
 }

@@ -8,7 +8,9 @@ namespace adamOS.adventureGame
 {
     public class level1
     {
-        
+        public static int goblinHP = 10;
+        public static int goblinAttack = 1;
+        //adventureGame.adventureGameMain player;
 
         public static void main()
         {
@@ -19,7 +21,12 @@ namespace adamOS.adventureGame
 
         static void goblenFight()
         {
-            
+            Console.WriteLine("Type attack to swing at the goblin!");
+            var playerMove = Console.ReadLine();
+            if(playerMove == "attack")
+            {
+                //goblinHP - 
+            }
         }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace adamOS.adventureGame
 {
-    class player
+    public class player
     {
-        public static string playerName = "";
+        public static string playerN = "";
 
     }
 }
