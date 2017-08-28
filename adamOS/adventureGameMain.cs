@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace adamOS.adventureGame
+namespace adamOS
 {
-    
     public class adventureGameMain
     {   
         public static string playerName = "";
@@ -26,7 +25,7 @@ namespace adamOS.adventureGame
             var playerReady = Console.ReadLine();
             if (playerReady == "yes")
             {
-                level1.main();
+                //level1.main();
             }
             else
             {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-//using adamOS.adventureGame; Dosnt work ATM but it loads the game
+using adamOS.adventureGame;
 using Sys = Cosmos.System;
 
 namespace adamOS
@@ -28,10 +28,10 @@ namespace adamOS
                 help.helpList();
             }
             else
-            //Loads the game - Currently not working
+            //Loads the game adventureGame
                 if (input == "game")
             {
-                //adventureGameMain.gameMain();
+                adventureGameMain.gameMain();
             }
             else
                 if (input == "newText") //CURRENTLY BROKEN
