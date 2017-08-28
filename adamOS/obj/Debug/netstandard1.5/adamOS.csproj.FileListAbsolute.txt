@@ -5,3 +5,10 @@ D:\Development\adamOS\adamOS\adamOS\obj\Debug\netstandard1.5\adamOS.csprojResolv
 D:\Development\adamOS\adamOS\adamOS\obj\Debug\netstandard1.5\adamOS.AssemblyInfo.cs
 D:\Development\adamOS\adamOS\adamOS\obj\Debug\netstandard1.5\adamOS.dll
 D:\Development\adamOS\adamOS\adamOS\obj\Debug\netstandard1.5\adamOS.pdb
+D:\Development\adamOS\adamOSSource\adamOS\bin\Debug\netstandard1.5\adamOS.deps.json
+D:\Development\adamOS\adamOSSource\adamOS\bin\Debug\netstandard1.5\adamOS.dll
+D:\Development\adamOS\adamOSSource\adamOS\bin\Debug\netstandard1.5\adamOS.pdb
+D:\Development\adamOS\adamOSSource\adamOS\obj\Debug\netstandard1.5\adamOS.csprojResolveAssemblyReference.cache
+D:\Development\adamOS\adamOSSource\adamOS\obj\Debug\netstandard1.5\adamOS.AssemblyInfo.cs
+D:\Development\adamOS\adamOSSource\adamOS\obj\Debug\netstandard1.5\adamOS.dll
+D:\Development\adamOS\adamOSSource\adamOS\obj\Debug\netstandard1.5\adamOS.pdb

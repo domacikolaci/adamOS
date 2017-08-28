@@ -3876,10 +3876,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\adamOS\\adamOS\\adamOS\\adamOS.csproj",
+      "projectUniqueName": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\adamOS.csproj",
       "projectName": "adamOS",
-      "projectPath": "D:\\Development\\adamOS\\adamOS\\adamOS\\adamOS.csproj",
-      "outputPath": "D:\\Development\\adamOS\\adamOS\\adamOS\\obj\\",
+      "projectPath": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\adamOS.csproj",
+      "outputPath": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.5"
