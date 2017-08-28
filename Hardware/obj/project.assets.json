@@ -982,15 +982,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Hardware/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.5",
-        "dependencies": {
-          "Cosmos.Debug.Kernel": "1.0.0",
-          "Cosmos.System": "1.0.0",
-          "NETStandard.Library": "1.6.1"
-        }
       }
     }
   },
@@ -3870,18 +3861,12 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Hardware/1.0.0": {
-      "type": "project",
-      "path": "../Hardware/Hardware.csproj",
-      "msbuildProject": "../Hardware/Hardware.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.5": [
       "Cosmos.Debug.Kernel >= 1.0.*",
       "Cosmos.System >= 1.0.*",
-      "Hardware >= 1.0.0",
       "NETStandard.Library >= 1.6.1"
     ]
   },
@@ -3891,21 +3876,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\adamOS.csproj",
-      "projectName": "adamOS",
-      "projectPath": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\adamOS.csproj",
-      "outputPath": "D:\\Development\\adamOS\\adamOSSource\\adamOS\\obj\\",
+      "projectUniqueName": "D:\\Development\\adamOS\\adamOSSource\\Hardware\\Hardware.csproj",
+      "projectName": "Hardware",
+      "projectPath": "D:\\Development\\adamOS\\adamOSSource\\Hardware\\Hardware.csproj",
+      "outputPath": "D:\\Development\\adamOS\\adamOSSource\\Hardware\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.5"
       ],
       "frameworks": {
         "netstandard1.5": {
-          "projectReferences": {
-            "D:\\Development\\adamOS\\adamOSSource\\Hardware\\Hardware.csproj": {
-              "projectPath": "D:\\Development\\adamOS\\adamOSSource\\Hardware\\Hardware.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },

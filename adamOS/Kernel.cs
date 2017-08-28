@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using adamOS.adventureGame;
 using Sys = Cosmos.System;
+using Hardware;
+using Display;
 
 namespace adamOS
 {
@@ -25,7 +27,11 @@ namespace adamOS
         /// -Add GUI
         /// --Make VGA a thing
         /// --Drivers?
+        /// https://github.com/CosmosOS/Cosmos/wiki/Creating-a-GUI-The-basics Trying this
         /// </summary>
+
+
+
 
         protected override void BeforeRun()
         {
@@ -35,6 +41,11 @@ namespace adamOS
             Console.WriteLine("WARNING - THIS OS IS VERY MUCH ALPHA, ENJOY");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("If your not sure what to type, type help for a list of commands!");
+
+            //display = Display.DisplayDriver;
+
+            //display = new DisplayDriver();
+            //display.init();
         }
         
         protected override void Run()
@@ -67,6 +78,11 @@ namespace adamOS
             {
                 //var output = ReadText.ReadText();
 
+            }
+            else
+                if (input == "startg")
+            {
+                //Start GUI
             }
         }
     }

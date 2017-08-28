@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adamOS", "adamOS\adamOS.csproj", "{77441807-B9C0-47A0-9E82-D1ED10527C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adamOS", "adamOS\adamOS.csproj", "{77441807-B9C0-47A0-9E82-D1ED10527C0E}"
 EndProject
 Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "adamOSBoot", "adamOS\adamOSBoot.Cosmos", "{8C64AFBE-6FF7-4FBD-AA09-348AA781765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardware", "Hardware\Hardware.csproj", "{06615E08-0A80-4936-8992-239CF180EF22}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "HardwareBoot", "Hardware\HardwareBoot.Cosmos", "{76F5E9B1-CDF7-4CC2-A9C9-07840A0C130B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{8C64AFBE-6FF7-4FBD-AA09-348AA781765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C64AFBE-6FF7-4FBD-AA09-348AA781765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C64AFBE-6FF7-4FBD-AA09-348AA781765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06615E08-0A80-4936-8992-239CF180EF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06615E08-0A80-4936-8992-239CF180EF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06615E08-0A80-4936-8992-239CF180EF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06615E08-0A80-4936-8992-239CF180EF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F5E9B1-CDF7-4CC2-A9C9-07840A0C130B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F5E9B1-CDF7-4CC2-A9C9-07840A0C130B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F5E9B1-CDF7-4CC2-A9C9-07840A0C130B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F5E9B1-CDF7-4CC2-A9C9-07840A0C130B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
