@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using adamOS.adventureGame;
 
-namespace adamOS.adventureGame
+namespace adamOS
 {
     public class level1
     {
@@ -25,7 +26,9 @@ namespace adamOS.adventureGame
             var playerMove = Console.ReadLine();
             if(playerMove == "attack")
             {
-                //goblinHP - 
+                goblinHP = -adventureGameMain.playerAttack;
+                Console.WriteLine(goblinHP);
+                Console.ReadLine();
             }
         }
     }

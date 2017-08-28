@@ -17,20 +17,22 @@ namespace adamOS
             //var playerName = new player.playerN();
             //player playerName;
 
-            Console.Write("Welcome adventurer! Please, state thy name!\n");
+            Console.Write("Welcome adventurer! Please, state thy name!");
+            Console.WriteLine(">:");
             playerName = Console.ReadLine();
             Console.WriteLine(playerName + "! You are about to embark on an amazing journey!");
-            Console.Write("It will involve all sorts of cool and fun quests!/n");
-            Console.Write("Are you ready?/n");
+            Console.WriteLine("It will involve all sorts of cool and fun quests!");
+            Console.WriteLine("Are you ready?");
+            Console.WriteLine(">:");
             var playerReady = Console.ReadLine();
             if (playerReady == "yes")
             {
-                //level1.main();
+                adamOS.level1.main();
             }
             else
             {
-                //Will go back to "main.cs" which will be added later.....
-                Console.WriteLine("lol k");
+                //Returns user back to Kernel.cs
+                Console.WriteLine("Now returning back to adamOS");
                 Console.ReadLine();
             }
         }

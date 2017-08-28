@@ -8,6 +8,25 @@ namespace adamOS
 {
     public class Kernel: Sys.Kernel
     {
+
+        /// <summary>
+        /// This project is based off Cosmos, and is written by Adam "domacikolaci" Knezevic
+        /// 
+        /// TODO:
+        /// IMPORTANT
+        /// -Begin basic commands
+        /// --Help
+        /// -Begining code of basic game
+        /// --Got to get basic fight going
+        /// --Setup basic Player stats
+        /// -Learn how to do a basic file system
+        /// --Make my own version of Vim
+        /// --Read/write to files/folders
+        /// -Add GUI
+        /// --Make VGA a thing
+        /// --Drivers?
+        /// </summary>
+
         protected override void BeforeRun()
         {
             Console.ForegroundColor = ConsoleColor.Green;
